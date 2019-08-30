@@ -1,0 +1,57 @@
+
+TESTS FOR Computer.java:
+Brand One, CPU1, 16GB Memory, 1.3TB Hard Drive, Price: $1770.34 
+Brand Two, CPU2, 16GB Memory, 400GB Solid State Drive, Price: $1212.34 
+Brand Three, CPU3, 16GB Memory, 2.4TB Solid State Drive, Price: $5899.99 
+Brand Four, Intel, 8GB Memory, 111GB Hard Drive, Price: $811.99 
+
+TESTS FOR DateAndPlaceOfBirth.java:
+Date and place of birth: 2000-09-10, Brooklyn, NY, USA
+Date and place of birth: 2000-09-10, Binghamton, NY, USA
+Date and place of birth: 2008-01-08, Binghamton, NY, USA
+Date and place of birth: 2010-09-10, Some City, Country
+Date and place of birth: 2019-07-04, Hongkong, China
+false
+false
+true
+true
+
+true
+false
+false
+false
+
+true
+false
+false
+true
+
+true
+false
+false
+false
+
+TESTS FOR StreetUSAddress.java:
+123 45th street
+Brooklyn, NY 11211
+
+777 x ave
+y drive
+Binghamton, NY 13000
+
+TESTS FOR Person.java:
+Mingming Jiang (1234-56-0000),
+Date and place of birth: 1996-01-18, Brooklyn, NY, USA
+123 44th street
+Brooklyn, NY 11200
+
+TESTS FOR ComputerOwner.java:
+Computer List, Owner: Mingming Jiang (1234-56-0000),
+Date and place of birth: 1996-01-18, Brooklyn, NY, USA
+123 44th street
+Brooklyn, NY 11200
+Computers: [Brand Two, CPU2, 16GB Memory, 400GB Solid State Drive, Price: $1212.34 , Brand Three, CPU3, 16GB Memory, 2.4TB Solid State Drive, Price: $5899.99 ]
+
+TESTS FOR SimpleDate.java:
+true
+false

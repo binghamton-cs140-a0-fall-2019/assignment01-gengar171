@@ -73,7 +73,7 @@ public class PlaceDOBTester {
 		output.println(dpob1.olderThan(dpob5)); //T
 		output.println(dpob1.youngerThan(dpob5)); //F
 		output.println(dpob1.hasSameBirthDateAs(dpob5)); //F
-		output.print(dpob1.hasSameBirthDayAs(dpob5)); //F
+		output.println(dpob1.hasSameBirthDayAs(dpob5)); //F
 
 		//Copy all your lines above, add an extra "2" to every variable name
 		// and replace every System.out.print or System.out.println
