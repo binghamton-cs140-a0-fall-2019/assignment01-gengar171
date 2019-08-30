@@ -52,7 +52,7 @@ public class DateAndPlaceOfBirth {
 	 * @return the date of birth
 	 */
 	public LocalDate getDateOfBirth() {
-		return dateOfBirth;
+		return dateOfBirth;	
 	}
 	/**
 	 * Getter method for the place if birth. The format is
@@ -106,7 +106,9 @@ public class DateAndPlaceOfBirth {
 	 * the same day and month as the date of birth of other and false otherwise
 	 */
 	public boolean hasSameBirthDayAs(DateAndPlaceOfBirth other) {
+		return ((dateOfBirth.getMonth() == other.dateOfBirth.getMonth()) && (dateOfBirth.getDayOfMonth() == other.dateOfBirth.getDayOfMonth()));
   //TODO complete this method
+		//done
   }
 	@Override
 	public String toString() {
